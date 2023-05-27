@@ -1,0 +1,456 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.Home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	min-height: 100vh;
+	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
+		center / cover;
+}
+
+.Home-tytle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 75px;
+	line-height: 94px;
+	color: #ffffff;
+}
+
+.Home-text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	margin-bottom: 100px;
+}
+
+.Home-Button {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #8dd83d;
+	border-radius: 4px;
+	padding: 10px 30px;
+	transition: all 0.7s ease 0s;
+}
+
+.Home-Button:hover {
+	background: #436222;
+	box-shadow: 0 0 10px 0 #436222;
+}
+
+.home2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	min-height: 100vh;
+	background: url(../images/BB.jpg) no-repeat center / cover;
+}
+
+.home-text2 {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	margin-right: 79vh;
+}
+
+.home2-tytle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+	margin-right: 77vh;
+}
+.home-text3 {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	margin-right: 55vh;
+}
+.home-button2 {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #373a3c;
+	border-radius: 4px;
+	padding: 10px 30px;
+	transition: all 0.7s ease 0s;
+	margin-right: 95vh;
+	margin-bottom: 50vh;
+}
+
+.home-button2:hover {
+	background: #424446;
+	box-shadow: 0 0 10px 0 rgb(77, 78, 78);
+}
+
+.home-button2 {
+	margin: 50px;
+	margin-right: 100vh;
+}
+
+.home-button3 {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #689f2e;
+	border-radius: 4px;
+	padding: 10px 30px;
+	transition: all 0.7s ease 0s;
+}
+
+.home-button3 {
+	margin: -90px;
+	margin-right: 30vh;
+}
+
+.home-button3:hover {
+	background: #8dd83d;
+	box-shadow: #436222;
+}
+
+.games {
+	background: linear-gradient(rgb(82, 81, 81), rgb(47, 46, 46));
+	padding: 60px 0 160px 0;
+}
+
+.games-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.games-tytle {
+	text-align: center;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+}
+
+.games-subtytle {
+	text-align: center;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 60px;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.games-row {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.card {
+	max-width: 320px;
+	flex: 0 0 320px;
+	background: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #8dd83d;
+	overflow: hidden;
+}
+
+.card-image {
+	height: 180px;
+}
+
+.card-image-01 {
+	background: url(../images/card-image-01.jpg) no-repeat center / cover;
+}
+
+.card-image-02 {
+	background: url(../images/card-imagg-02.jpg) no-repeat center / cover;
+}
+
+.card-image-03 {
+	background: url(../images/card-imagr-03.jpg) no-repeat center / cover;
+}
+
+.card-content {
+	padding: 20px;
+}
+
+.card-tytle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #435766;
+	margin-bottom: 10px;
+}
+
+.card-text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #435766;
+	margin-bottom: 40px;
+}
+
+.card-button {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: #8dd83d;
+	padding: 20px;
+	border-radius: 4px;
+	color: #ffffff;
+}
+
+.card-button:hover {
+	background: #5b961d;
+	box-shadow: #527828;
+}
+
+.exclucive-games {
+	background: url(../images/Backround-three-slyde.jpg) no-repeat center / cover;
+}
+
+.games-tytle2 {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 57px;
+	text-align: center;
+	color: #8dd83d;
+}
+
+.header {
+	background: #373a3c;
+	padding: 11px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-logo {
+	height: 30px;
+}
+
+.menu_icon {
+	flex: 0 0 30px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/Menu_icon.png) no-repeat center / cover;
+	display: none;
+}
+
+.menu-body {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+
+.menu-link {
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.menu-link:hover {
+	color: #ffffff;
+	text-shadow: 0 0 5px #ffffff;
+}
+
+@media (max-width: 600px) {
+	.menu_icon {
+		display: block;
+		position: relative;
+		z-index: 11;
+	}
+	.header-logo {
+		position: relative;
+		z-index: 11;
+	}
+
+	.menu_icon.active {
+		background: url(../images/close_icon.png) no-repeat center / cover;
+	}
+	.menu-body {
+		position: fixed;
+		left: 0;
+		top: -100%;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 30px;
+		transition: all 0.7s ease 0s;
+	}
+
+	.menu-body.active {
+		top: 0;
+	}
+
+	body.active {
+		overflow: hidden;
+	}
+
+	.Home-tytle {
+		font-style: 40px;
+	}
+}
+
+.fotter {
+	background: #373a3c;
+	border-radius: 4px;
+}
+
+.Xbox-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: #7dd42f;
+	border-radius: 4px;
+	padding: 40px 30px 4px 165px;
+	transition: all 0.7s ease 0s;
+}
+
+.Support-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	margin-top: 25px;
+	text-decoration: none;
+	display: block;
+	padding: 0px 0px 2px 165px;
+	transition: all 0.7s ease 0s;
+}
+
+.Contact-us-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 165px;
+	transition: all 0.7s ease 0s;
+}
+
+.Privacy-cookies-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+	display: block;
+	padding: 0 0 0 165px;
+	transition: all 0.7s ease 0s;
+}
+.Developers-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: #7dd42f;
+	display: block;
+	margin-left: 700px;
+}
+
+.Terms-of-use-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+	display: block;
+	padding: 0 0 0 165px;
+	transition: all 0.7s ease 0s;
+}
+
+.English-United-States {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	display: block;
+	padding: 40px 0 0 100px;
+	text-decoration: none;
+}
+
+.Games-f {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+}
